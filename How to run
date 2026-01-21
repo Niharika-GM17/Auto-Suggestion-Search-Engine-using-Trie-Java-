@@ -1,0 +1,24 @@
+▶️ How to Run
+
+Clone the repository:
+
+git clone https://github.com/Niharika-GM17/Auto-Suggestion-Search-Engine-using-Trie-Java-.git
+
+
+Navigate to the project directory:
+
+cd Auto-Suggestion-Search-Engine-using-Trie-Java-
+
+
+Compile the Java file:
+
+javac SearchEngineProject.java
+
+
+Run the program:
+
+java SearchEngineProject
+
+Make sure Java JDK is installed on your system.
+
+The program runs in the console and displays auto-suggestions based on the input prefix.
