@@ -1,0 +1,18 @@
+The system uses a Trie (Prefix Tree) where each node represents a single character.
+
+Words are inserted into the Trie by creating child nodes for each character if they do not already exist.
+
+Common prefixes share the same nodes, allowing node reuse and efficient storage.
+
+For search or auto-suggestion, the Trie is traversed character by character based on the input prefix.
+
+Once the prefix node is reached, a depth-first traversal is performed to collect all valid words starting from that prefix.
+
+Each complete word is identified using an end-of-word flag stored in the Trie nodes.
+
+
+# Key points of this project 
+
+Prefix lookup runs in O(n) time, where n is the length of the input string.
+
+Trie structure avoids repeated string comparisons and enables efficient prefix-based search, making it suitable for this use case.
