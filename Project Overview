@@ -1,0 +1,5 @@
+This project implements an auto-suggestion search engine using the Trie data structure in Java to support fast prefix-based search.
+
+The application stores and retrieves strings efficiently by traversing Trie nodes character-by-character, enabling quick lookup and suggestion generation. The implementation focuses on clean data structure design, correct handling of edge cases, and efficient traversal logic.
+
+This project demonstrates strong understanding of core DSA concepts, including Trie construction, prefix matching, node reuse, and time complexity analysis.
